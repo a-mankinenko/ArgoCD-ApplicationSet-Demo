@@ -2,7 +2,7 @@ apiVersion: argoproj.io/v1alpha1
 kind: ApplicationSet
 metadata:
   name: color-applicaitonset
-  namespace: app-set-1
+  namespace: app-set-test
 spec:
   generators:
   - list:
