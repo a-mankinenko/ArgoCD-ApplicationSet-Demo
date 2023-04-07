@@ -2,7 +2,7 @@ apiVersion: argoproj.io/v1alpha1
 kind: ApplicationSet
 metadata:
   name: color-applicaitonset
-  namespace: argocd
+  namespace: app-set-1
 spec:
   generators:
   - list:
